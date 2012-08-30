@@ -56,7 +56,7 @@ print <<REPORT;
 REPORT
 
 sub usage {
-    require POD::Usage;
+    require Pod::Usage;
     Pod::Usage::pod2usage( @_ );
 }
 
