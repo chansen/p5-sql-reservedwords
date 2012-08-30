@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use vars '$VERSION';
 
-$VERSION = 0.7;
+$VERSION = '0.8';
 
 use constant SQLITE2 => 0x01; # 2.8.17
 use constant SQLITE3 => 0x02; # 3.3.4

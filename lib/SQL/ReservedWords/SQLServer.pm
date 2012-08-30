@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use vars '$VERSION';
 
-$VERSION = 0.7;
+$VERSION = '0.8';
 
 use constant SQLSERVER7    => 0x01;
 use constant SQLSERVER2000 => 0x02;

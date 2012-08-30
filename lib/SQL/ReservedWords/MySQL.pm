@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use vars '$VERSION';
 
-$VERSION = 0.7;
+$VERSION = '0.8';
 
 use constant MYSQL32 => 0x01;
 use constant MYSQL40 => 0x02;

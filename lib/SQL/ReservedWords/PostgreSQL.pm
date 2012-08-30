@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use vars '$VERSION';
 
-$VERSION = 0.7;
+$VERSION = '0.8';
 
 use constant POSTGRESQL73 => 0x01;
 use constant POSTGRESQL74 => 0x02;
