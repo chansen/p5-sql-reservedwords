@@ -431,7 +431,7 @@ use constant DB2V9 => 0x10;
     );
 
     sub is_reserved {
-        return $WORDS{ uc pop } || 0;
+        return $WORDS{ uc(pop || '') } || 0;
     }
 
     sub is_reserved_by_db2v5 {

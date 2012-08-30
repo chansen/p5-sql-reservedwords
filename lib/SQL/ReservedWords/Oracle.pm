@@ -142,7 +142,7 @@ use constant ORACLE10 => 0x08;
     );
 
     sub is_reserved {
-        return $WORDS{ uc pop } || 0;
+        return $WORDS{ uc(pop || '') } || 0;
     }
 
     sub is_reserved_by_oracle7 {

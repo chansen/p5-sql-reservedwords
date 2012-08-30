@@ -93,7 +93,7 @@ use constant SQLITE3 => 0x02; # 3.3.4
     );
 
     sub is_reserved {
-        return $WORDS{ uc pop } || 0;
+        return $WORDS{ uc(pop || '') } || 0;
     }
 
     sub is_reserved_by_sqlite2 {
